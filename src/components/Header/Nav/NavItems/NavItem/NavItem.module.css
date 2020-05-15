@@ -1,0 +1,12 @@
+.NavItem {
+    opacity: 1;
+    height: 22px;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color:#fff;
+}
+
+.NavItem:hover, .NavItem:active {
+    opacity: 0.4;
+}
