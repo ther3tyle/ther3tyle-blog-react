@@ -1,27 +1,18 @@
 import React from "react";
 import "./Layout.scss";
 
+import Navigation from "../Navbar/Navigation";
+
 const Layout = (props) => {
 
-  const navItemsArr = ['Blog', 'Sound', 'CV'];
-
-  const navItemsBuild = navItemsArr.map(item => {
-    return <li className="nav-item" key={item}><a href="/">{item}</a></li>
-  });
+  const navItems = ['Blog', 'Sound', 'CV'];
 
   return (
     <div className="layout">
       <div className="container">
 
-        {/* NAV */}
         <header>
-          <nav className="nav">
-            <div className="logo"/>
-            <div className="spacer"/>
-            <ul className="nav-items">
-              {navItemsBuild}
-            </ul>
-          </nav>
+          <Navigation navItems={navItems}/>
         </header>
 
         <main>
