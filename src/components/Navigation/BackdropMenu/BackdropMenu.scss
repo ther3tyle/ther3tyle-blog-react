@@ -1,0 +1,25 @@
+.BackdropMenu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  transition: transform 1s ease-out;
+}
+
+// todo: separate discrete breakpoints for tablet and cell
+
+@media only screen AND (min-width: 768px) {
+  .BackdropMenu {
+    display: none;
+  }
+}
+
+.Open {
+  transform: translateY(0);
+}
+
+.Close {
+  transform: translateY(-100%);
+}

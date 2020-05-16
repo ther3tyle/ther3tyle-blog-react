@@ -1,0 +1,45 @@
+.background-images {
+  width: 100%;
+  height: 40.5rem;
+  position: relative;
+  display: flex;
+}
+
+.background-image-text {
+  width: 100%;
+  height: 100%;
+  max-width: 37.938rem;
+  max-height: 40.5rem;
+  background-image: url("../../assets/images/bgLetters.svg");
+  background-repeat: no-repeat;
+}
+
+.background-image-doggy {
+  position: absolute;
+  top: 23.563rem;
+  right: 0;
+  width: 20.875rem;
+  height: 20.875rem;
+  background-image: url("../../assets/images/bae-dog-01@3x.png");
+  background-size: 20.875rem 20.875rem;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.background-image-arrow {
+  position: absolute;
+  left: 37rem;
+  top: 17.8rem;
+  width: 9.938rem;
+  height: 7.938rem;
+  background-image: url("../../assets/images/arrow.svg");
+}
+
+// Temporary breakpoint
+// todo: separate discrete breakpoints for tablet and cell
+
+@media only screen and (max-width: 767px) {
+  .background-image-arrow {
+    display: none;
+  }
+}

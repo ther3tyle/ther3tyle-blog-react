@@ -1,11 +1,11 @@
 import React from "react";
 import "./Layout.scss";
-
-import Navigation from "../Navbar/Navigation";
+import Navigation from "../Navigation/Navigation";
+import BackgroundImages from "../BackgroundImages/BackgroundImages";
 
 const Layout = (props) => {
 
-  const navItems = ['Blog', 'Sound', 'CV'];
+  const navItems = ['Blog', 'Sound', 'Portfolio', 'CV'];
 
   return (
     <div className="layout">
@@ -16,17 +16,10 @@ const Layout = (props) => {
         </header>
 
         <main>
-          <div className="background-images">
-            <div className="background-image-text">
-              <div className="background-image-arrow"/>
-            </div>
-            <div className="background-align-right">
-              <div className="background-image-doggy"/>
-            </div>
-          </div>
+          <BackgroundImages />
         </main>
-        {/*  */}
 
+        {/*  */}
       </div>
     </div>
   );

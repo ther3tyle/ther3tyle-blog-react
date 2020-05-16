@@ -11,11 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ce4dd8-6efc-4b96-acc7-0dcaa008ff86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Aux/Aux.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navigation.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +80,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/hoc" />
       <recent name="$PROJECT_DIR$/src/components/Header" />
       <recent name="$PROJECT_DIR$/src/components/Navigator/NavigatorItems" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,7 +108,7 @@
       <workItem from="1589530681059" duration="9022000" />
       <workItem from="1589562801832" duration="17492000" />
       <workItem from="1589639258662" duration="15094000" />
-      <workItem from="1589655350551" duration="711000" />
+      <workItem from="1589655350551" duration="11575000" />
     </task>
     <servers />
   </component>
@@ -120,30 +131,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="968" y="474" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589642196607">
+    <state x="968" y="474" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589656235151">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
-    <state x="968" y="474" key="#com.intellij.execution.impl.EditConfigurationsDialog/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589642196607" />
+    <state x="968" y="474" key="#com.intellij.execution.impl.EditConfigurationsDialog/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589656235151" />
     <state x="1131" y="1141" key="EditFileWatcherDialog" timestamp="1589648367864">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
     <state x="1131" y="1141" key="EditFileWatcherDialog/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589648367864" />
-    <state width="2987" height="462" key="GridCell.Tab.0.bottom" timestamp="1589645252385">
+    <state width="2987" height="462" key="GridCell.Tab.0.bottom" timestamp="1589664428091">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
-    <state width="2987" height="462" key="GridCell.Tab.0.bottom/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589645252385" />
-    <state width="2987" height="462" key="GridCell.Tab.0.center" timestamp="1589645252384">
+    <state width="2987" height="462" key="GridCell.Tab.0.bottom/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589664428091" />
+    <state width="2987" height="462" key="GridCell.Tab.0.center" timestamp="1589664428090">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
-    <state width="2987" height="462" key="GridCell.Tab.0.center/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589645252384" />
-    <state width="2987" height="462" key="GridCell.Tab.0.left" timestamp="1589645252383">
+    <state width="2987" height="462" key="GridCell.Tab.0.center/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589664428090" />
+    <state width="2987" height="462" key="GridCell.Tab.0.left" timestamp="1589664428090">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
-    <state width="2987" height="462" key="GridCell.Tab.0.left/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589645252383" />
-    <state width="2987" height="462" key="GridCell.Tab.0.right" timestamp="1589645252384">
+    <state width="2987" height="462" key="GridCell.Tab.0.left/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589664428090" />
+    <state width="2987" height="462" key="GridCell.Tab.0.right" timestamp="1589664428090">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
-    <state width="2987" height="462" key="GridCell.Tab.0.right/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589645252384" />
+    <state width="2987" height="462" key="GridCell.Tab.0.right/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589664428090" />
     <state x="2011" y="879" key="SettingsEditor" timestamp="1589648363735">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
