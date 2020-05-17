@@ -1,9 +1,18 @@
 import React from "react";
 
 import './Backdrop.scss';
+import NavigationItems from "../../Navigation/NavigationItems/NavigationItems";
 
-const Backdrop = (props) => (
-  props.show ? <div className="backdrop" onClick={props.clicked}/> : null
-);
+const Backdrop = (props) => {
+
+  const openCloseStr = props.show ? " open" : " close";
+
+  return (
+    <div className={"backdrop" + openCloseStr}
+         onClick={props.clicked}>
+      <NavigationItems/>
+    </div>
+  );
+};
 
 export default Backdrop;

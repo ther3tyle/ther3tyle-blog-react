@@ -1,22 +1,26 @@
-.BackdropToggle {
-  width: 40px;
-  height: 100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 0;
-  cursor: pointer;
-  z-index: 100;
-  div {
-    width: 90%;
-    height: 3px;
-    background-color: white;
+@media only screen and (max-width: 992px) {
+  .backdrop-toggle {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+    z-index: 300;
+    div {
+      width: 90%;
+      height: 3px;
+      background-color: white;
+    }
   }
 }
 
-@media only screen AND (min-width: 768px) {
-  .BackdropToggle {
+@media only screen and (min-width: 992px) {
+  .backdrop-toggle {
     display: none;
   }
 }

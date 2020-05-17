@@ -1,25 +1,34 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Layout.scss";
 import Navigation from "../Navigation/Navigation";
-import BackgroundImages from "../BackgroundImages/BackgroundImages";
+import BackdropMenu from "../Navigation/BackdropMenu/BackdropMenu";
 
 const Layout = (props) => {
 
-  const navItems = ['Blog', 'Sound', 'Portfolio', 'CV'];
+  const [showMenu, setShowMenu] = useState(false);
+
+  const closeMenuHandler = () => {
+    setShowMenu(false);
+  }
+
+  const showMenuHandler = () => {
+    setShowMenu(prevState => !prevState);
+    console.log(showMenu)
+  }
+
 
   return (
     <div className="layout">
       <div className="container">
 
         <header>
-          <Navigation navItems={navItems}/>
+          {/* BACKDROP MENU */}
+          <Navigation toggleMenu={showMenuHandler}/>
         </header>
-
+        <BackdropMenu open={showMenu} click={closeMenuHandler}/>
         <main>
-          <BackgroundImages />
+          {props.children}
         </main>
-
-        {/*  */}
       </div>
     </div>
   );
