@@ -7,7 +7,7 @@ const NavigationItems = (props) => {
 
   const items = ['Blog', 'Sound', 'Portfolio', 'CV'].map((item, _) => {
     return (
-      <NavigationItem key={item} name={item} link="/"/>
+      <NavigationItem key={item} name={item} link={item.toLowerCase()}/>
     );
   });
 

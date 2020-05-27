@@ -6,15 +6,14 @@ import BackgroundImages from "../components/BackgroundImages/BackgroundImages";
 import Blog from "../components/Blog/Blog";
 
 const Router = (props) => {
-    return(
+    return (
         <div>
-            <Layout>
             <BrowserRouter>
-                <Route path="/" exact component={BackgroundImages}/>
-                <Route path="/blog" component={Blog}/>
+                <Layout>
+                    <Route path="/" exact component={BackgroundImages}/>
+                    <Route path="/blog" component={Blog}/>
+                </Layout>
             </BrowserRouter>
-            </Layout>
-            Router
         </div>
     );
 }
