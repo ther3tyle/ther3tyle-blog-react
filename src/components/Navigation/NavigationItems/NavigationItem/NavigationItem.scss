@@ -1,0 +1,31 @@
+.navigation-item {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  outline: none;
+}
+
+.navigation-item:hover,
+.navigation-item:active {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 992px) {
+  .navigation-item {
+    font-size: 20px;
+    padding: 1rem;
+    display: block;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navigation-item {
+    padding: 1.25rem;
+    a {
+      height: 100%;
+    }
+  }
+}

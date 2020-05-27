@@ -11,18 +11,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ce4dd8-6efc-4b96-acc7-0dcaa008ff86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Nav/NavItems/NavItem/NavItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Nav/NavItems/NavItem/NavItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Aux/Aux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bae-dog-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bae-dog-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bae-dog-01@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bae-dog-01@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bae-dog-01@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bae-dog-01@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bgLetters.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bgLetters.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationItems/NavigationItems.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Aux/Aux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Aux/Aux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +59,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="a8d576ce834ced75d05a8c57c2a9949745069c04" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1bw6CKwkUaAPr6ezsKEQxgCMGbD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,24 +88,42 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/hoc" />
       <recent name="$PROJECT_DIR$/src/components/Header" />
       <recent name="$PROJECT_DIR$/src/components/Navigator/NavigatorItems" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
+  </component>
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -83,6 +136,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589530679451</updated>
       <workItem from="1589530681059" duration="9022000" />
+      <workItem from="1589562801832" duration="17492000" />
+      <workItem from="1589639258662" duration="15094000" />
+      <workItem from="1589655350551" duration="30036000" />
+      <workItem from="1589854792384" duration="2606000" />
+      <workItem from="1589944041624" duration="972000" />
+      <workItem from="1590553085773" duration="13081000" />
     </task>
     <servers />
   </component>
@@ -99,14 +158,48 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1167" y="390" width="670" height="676" key="search.everywhere.popup" timestamp="1589532168441">
+    <state x="968" y="474" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589656235151">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
-    <state x="1167" y="390" width="670" height="676" key="search.everywhere.popup/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589532168441" />
+    <state x="968" y="474" key="#com.intellij.execution.impl.EditConfigurationsDialog/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589656235151" />
+    <state x="1131" y="1141" key="EditFileWatcherDialog" timestamp="1589648367864">
+      <screen x="0" y="23" width="3008" height="1578" />
+    </state>
+    <state x="1131" y="1141" key="EditFileWatcherDialog/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589648367864" />
+    <state width="1486" height="402" key="GridCell.Tab.0.bottom" timestamp="1590561712476">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1486" height="402" key="GridCell.Tab.0.bottom/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590561712476" />
+    <state width="2987" height="462" key="GridCell.Tab.0.bottom/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589713726080" />
+    <state width="1486" height="402" key="GridCell.Tab.0.center" timestamp="1590561712475">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1486" height="402" key="GridCell.Tab.0.center/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590561712475" />
+    <state width="2987" height="462" key="GridCell.Tab.0.center/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589713726079" />
+    <state width="1486" height="402" key="GridCell.Tab.0.left" timestamp="1590561712475">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1486" height="402" key="GridCell.Tab.0.left/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590561712475" />
+    <state width="2987" height="462" key="GridCell.Tab.0.left/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589713726079" />
+    <state width="1486" height="402" key="GridCell.Tab.0.right" timestamp="1590561712476">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1486" height="402" key="GridCell.Tab.0.right/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590561712476" />
+    <state width="2987" height="462" key="GridCell.Tab.0.right/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589713726080" />
+    <state x="2011" y="879" key="SettingsEditor" timestamp="1589648363735">
+      <screen x="0" y="23" width="3008" height="1578" />
+    </state>
+    <state x="2011" y="879" key="SettingsEditor/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589648363735" />
+    <state x="3553" y="353" width="670" height="608" key="search.everywhere.popup" timestamp="1590559411296">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="3553" y="353" width="670" height="608" key="search.everywhere.popup/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590559411296" />
+    <state x="1167" y="390" width="670" height="676" key="search.everywhere.popup/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589651047074" />
   </component>
 </project>

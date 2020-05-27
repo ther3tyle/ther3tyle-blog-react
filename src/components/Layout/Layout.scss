@@ -1,0 +1,24 @@
+.layout {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1.875rem;
+  width: 100%;
+  max-width: 67.5rem;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: [column] 1fr repeat(9, [gutter]1em  [column]1fr);
+  grid-template-rows: [header] 64px repeat(5, [gutter] 1em [row] 1fr);
+}
+
+header {
+  grid-column: column 1 / span column 10;
+  grid-row: header;
+}
+
+main {
+  grid-column: column 1 / span column 10;
+  grid-row: row 1 / span row 5;
+}

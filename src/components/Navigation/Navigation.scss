@@ -1,0 +1,30 @@
+.logo-link {
+  margin: 0;
+  left : 0;
+  width: 1.875rem;
+  height: 1.875rem;
+  background-color: white;
+  align-self: center;
+}
+
+.menu-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 100%;
+}
+
+.desktop-nav {
+  grid-column: 4;
+}
+
+.toggle-button-container {
+  grid-column: 4;
+  justify-self: end;
+}
+
+@media only screen and (max-width: 992px) {
+  .desktop-nav {
+    display: none;
+  }
+}
