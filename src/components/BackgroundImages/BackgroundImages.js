@@ -16,5 +16,4 @@ const BackgroundImages = (props) => (
   </Aux>
 );
 
-
 export default BackgroundImages;
