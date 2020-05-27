@@ -46,6 +46,12 @@
     grid-row: 6 / 10;
     grid-column: 5 / 10;
   }
+
+  .background-image-text {
+    align-self: center;
+    height: 100%;
+    margin-bottom: calc(64px + 1rem);
+  }
 }
 
 /* Mobile */
