@@ -1,7 +1,7 @@
 import React from "react";
 
 import './Backdrop.scss';
-import NavigationItems from "../../Navigation/NavigationItems/NavigationItems";
+import NavigationItems from "../../Layout/Navigation/NavigationItems/NavigationItems";
 
 const Backdrop = (props) => {
 

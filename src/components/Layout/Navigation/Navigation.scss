@@ -12,6 +12,7 @@
 .toggle-button-container {
   grid-column: 4;
   justify-self: end;
+  z-index: 5;
 }
 
 @media only screen and (max-width: 992px) {

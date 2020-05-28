@@ -1,6 +1,6 @@
 import React from "react";
-import Aux from "../../../hoc/Aux/Aux";
-import Backdrop from "../../UI/Backdrop/Backdrop";
+import Aux from "../../../../hoc/Aux/Aux";
+import Backdrop from "../../../UI/Backdrop/Backdrop";
 
 const BackdropMenu = (props) => {
 
@@ -11,9 +11,7 @@ const BackdropMenu = (props) => {
     <Aux>
       <Backdrop show={props.open} clicked={props.click}/>
       <div className={menuString}>
-        <nav className="backdrop-nav">
-
-        </nav>
+        <nav className="backdrop-nav"/>
       </div>
     </Aux>
   )
