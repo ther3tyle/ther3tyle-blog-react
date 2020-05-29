@@ -1,20 +1,20 @@
 import React, {Component} from "react";
-import {connect} from 'react-redux';
-import {closeBackdropMenu} from "../../../actions";
 
 import './Backdrop.scss';
 import NavigationItems from "../../Layout/Navigation/NavigationItems/NavigationItems";
 
 class Backdrop extends Component {
+
     clicked = () => {
-        this.props.closeBackdropMenu();
+        this.props.click();
     }
 
     render() {
-        console.log(this.props.isOpen);
-
+        // backdrop is default
+        // append " open" or " close" as required
+        const classValues = "backdrop" + this.props.show;
         return (
-            <div className={"backdrop" + this.props.isOpen}
+            <div className={classValues}
                  onClick={this.clicked}>
                 <NavigationItems/>
             </div>
@@ -22,11 +22,4 @@ class Backdrop extends Component {
     }
 }
 
-function mapStateToProps (state, ownProps){
-    return {
-        ...ownProps,
-        isOpen: state.backdropMenu.showBackdropMenu
-    }
-}
-
-export default connect(mapStateToProps, {closeBackdropMenu})(Backdrop);
+export default Backdrop;

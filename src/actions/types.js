@@ -1,1 +1,0 @@
-export const BACKDROP_MENU = "BACKDROP_MENU";

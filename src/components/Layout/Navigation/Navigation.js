@@ -5,7 +5,7 @@ import NavigationItems from "./NavigationItems/NavigationItems";
 import Aux from "../../../hoc/Aux/Aux";
 import LogoButton from "../../UI/LogoButton/LogoButton";
 
-const Navigation = (props) => {
+const Navigation = () => {
 
     return (
         <Aux>
@@ -16,7 +16,7 @@ const Navigation = (props) => {
                     <NavigationItems/>
                 </nav>
                 <div className="toggle-button-container">
-                    <BackdropToggle clicked={props.toggleMenu}/>
+                    <BackdropToggle/>
                 </div>
             </div>
         </Aux>

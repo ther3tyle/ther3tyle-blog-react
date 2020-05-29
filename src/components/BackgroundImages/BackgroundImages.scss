@@ -20,7 +20,7 @@
 .background-image-doggy {
   position: relative;
   justify-self: right;
-  grid-row: 6 / span 10;
+  grid-row: 7 / span 10;
   grid-column: 8 / span 10;
   max-width: 20.875rem;
   max-height: 20.875rem;
@@ -59,13 +59,13 @@
   .background-image-text {
     align-self: center;
     height: 100%;
-    margin-top: calc(-64px + -6rem);
+    padding-bottom: calc(64px + 6rem);
   }
 
   .background-image-doggy {
     grid-row: 10 / 10;
     grid-column: 5 / 10;
-    margin-top: calc(-64px + -6rem);
+    martgin-top: calc(-64px + -6rem);
   }
 }
 

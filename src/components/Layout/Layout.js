@@ -20,7 +20,6 @@ const Layout = (props) => {
     <div className="layout">
       <div className="container">
         <header>
-           {/*BACKDROP MENU */}
           <Navigation toggleMenu={showMenuHandler}/>
         </header>
         <BackdropMenu open={showMenu} click={closeMenuHandler}/>

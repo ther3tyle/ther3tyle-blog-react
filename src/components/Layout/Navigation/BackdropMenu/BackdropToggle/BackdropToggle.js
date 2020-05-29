@@ -1,7 +1,7 @@
 import React from "react";
 import "./BackdropToggle.scss";
 import { connect } from 'react-redux';
-import {openBackdropMenu} from "../../../../../actions";
+import {openBackdrop} from "../../../../../redux/actions";
 
 const BackdropToggle = (props) => (
   <div onClick={props.openBackdropMenu} className="backdrop-toggle">
@@ -12,4 +12,4 @@ const BackdropToggle = (props) => (
   </div>
 );
 
-export default connect(null, {openBackdropMenu})(BackdropToggle);
+export default connect(null, {openBackdropMenu: openBackdrop})(BackdropToggle);
