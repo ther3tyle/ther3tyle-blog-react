@@ -10,7 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ce4dd8-6efc-4b96-acc7-0dcaa008ff86" name="Default Changelist" comment="" />
+    <list default="true" id="36ce4dd8-6efc-4b96-acc7-0dcaa008ff86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/backdropMenuReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Navigation/BackdropMenu/BackdropMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Navigation/BackdropMenu/BackdropMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="a8d576ce834ced75d05a8c57c2a9949745069c04" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,6 +71,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -161,10 +173,10 @@
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
     <state x="2011" y="879" key="SettingsEditor/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589648363735" />
-    <state x="3553" y="353" width="670" height="608" key="search.everywhere.popup" timestamp="1590572564945">
+    <state x="3553" y="353" width="670" height="608" key="search.everywhere.popup" timestamp="1590676666019">
       <screen x="2560" y="23" width="2560" height="1417" />
     </state>
-    <state x="3553" y="353" width="670" height="608" key="search.everywhere.popup/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590572564945" />
+    <state x="3553" y="353" width="670" height="608" key="search.everywhere.popup/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590676666019" />
     <state x="1167" y="390" width="670" height="676" key="search.everywhere.popup/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589651047074" />
   </component>
 </project>

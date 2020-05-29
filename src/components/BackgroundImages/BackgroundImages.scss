@@ -50,12 +50,18 @@
   .background-image-text {
     align-self: center;
     height: 100%;
-    margin-top: calc(-64px + -6rem);
   }
 }
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+
+  .background-image-text {
+    align-self: center;
+    height: 100%;
+    margin-top: calc(-64px + -6rem);
+  }
+
   .background-image-doggy {
     grid-row: 10 / 10;
     grid-column: 5 / 10;
@@ -65,11 +71,17 @@
 
 /* Tablet */
 @media screen and (min-width: 600px) {
-
+  .background-image-text {
+    align-self: center;
+    height: 100%;
+  }
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  .background-image-text {
+    align-self: center;
+    height: 100%;
+  }
 }
