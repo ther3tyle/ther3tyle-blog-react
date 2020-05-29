@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Layout.scss";
-import Navigation from "../Navigation/Navigation";
-import BackdropMenu from "../Navigation/BackdropMenu/BackdropMenu";
+import Navigation from "./Navigation/Navigation";
+import BackdropMenu from "./Navigation/BackdropMenu/BackdropMenu";
 
 const Layout = (props) => {
 
@@ -13,7 +13,6 @@ const Layout = (props) => {
 
   const showMenuHandler = () => {
     setShowMenu(prevState => !prevState);
-    console.log(showMenu)
   }
 
 
