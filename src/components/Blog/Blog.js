@@ -1,30 +1,42 @@
 import React, {Component} from "react";
-import jsonPlaceholder from "../../apis/jsonPlaceholder";
+import {connect} from "react-redux";
+import {fetchPosts} from "../../redux/actions";
+
+import Card from "../UI/Card/Card";
+import "./Blog.scss";
 
 class Blog extends Component {
-    getPosts = async () => {
-        const response = await jsonPlaceholder
-            .get("/posts");
-        return response.data;
-    }
-
-    blog = null;
 
     componentDidMount() {
-        this.getPosts()
-            .then(data => {
-                this.blog = data;
-                console.log(data);
-            })
+        this.props.fetchPosts();
+    }
+
+    renderPosts() {
+        return this.props.posts.map(post => {
+            return (
+                <Card
+                    key={post.id}
+                    imageSource={`https://picsum.photos/id/${post.id}/300/300`}
+                    title={post.title}
+                    text={post.body}
+                    author={post.userId}/>
+            )
+        });
     }
 
     render() {
         return (
-            <div>
-                {this.blog}
+            <div className="blog">
+                <div className="blog-container">
+                    {this.renderPosts()}
+                </div>
             </div>
         );
     }
 }
 
-export default Blog;
+const mapStateToProps = state => {
+    return {posts: state.posts, images: state.loremPicsum}
+}
+
+export default connect(mapStateToProps, {fetchPosts})(Blog);

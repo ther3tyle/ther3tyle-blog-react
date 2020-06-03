@@ -1,0 +1,17 @@
+// span itself to be same as main size
+.blog {
+  width: 100%;
+  height: 100%;
+  grid-row: row 1 / span row 10;
+  grid-column: column 1 / span column 5;
+}
+
+// creates inner grid
+.blog-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  padding-bottom: 3rem;
+}
+

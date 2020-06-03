@@ -1,8 +1,10 @@
 import {combineReducers} from "redux";
-import backdropReducer from "./backdropReducer";
-import menuReducer from "./menuReducer";
+import backdropMenuReducer from "./backdropMenuReducer";
+import postsReducer from "./postsReducer";
+import loremPicsumReducer from "./loremPicsumReducer";
 
 export default combineReducers({
-    backdropMenu: backdropReducer,
-    menuReducer: menuReducer
+    backdropMenu: backdropMenuReducer,
+    posts: postsReducer,
+    loremPicsum: loremPicsumReducer
 });

@@ -27,24 +27,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ce4dd8-6efc-4b96-acc7-0dcaa008ff86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/configureStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/menuReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apis/loremPicsum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Blog/Blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Card/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Card/Card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/loremPicsumReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/postsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImages/BackgroundImages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Navigation/BackdropMenu/BackdropMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Navigation/BackdropMenu/BackdropMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Navigation/BackdropMenu/BackdropToggle/BackdropToggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Navigation/NavigationItems/NavigationItem/NavigationItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Navigation/NavigationItems/NavigationItem/NavigationItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Navigation/NavigationItems/NavigationItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Navigation/NavigationItems/NavigationItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/backdropMenuReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/backdropReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blog/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/backdropReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/backdropMenuReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/menuReducer.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +142,8 @@
       <workItem from="1590571351371" duration="12694000" />
       <workItem from="1590635710669" duration="1237000" />
       <workItem from="1590639477677" duration="1277000" />
+      <workItem from="1590749484934" duration="711000" />
+      <workItem from="1591071674088" duration="682000" />
     </task>
     <servers />
   </component>
@@ -177,13 +178,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="3713" y="577" key="#File_Watchers" timestamp="1590728096897">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="3713" y="577" key="#File_Watchers/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590728096897" />
     <state x="968" y="474" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589656235151">
       <screen x="0" y="23" width="3008" height="1578" />
     </state>
     <state x="968" y="474" key="#com.intellij.execution.impl.EditConfigurationsDialog/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589656235151" />
-    <state x="1131" y="1141" key="EditFileWatcherDialog" timestamp="1589648367864">
-      <screen x="0" y="23" width="3008" height="1578" />
+    <state x="3523" y="1011" key="EditFileWatcherDialog" timestamp="1590728056181">
+      <screen x="2560" y="23" width="2560" height="1417" />
     </state>
+    <state x="3523" y="1011" key="EditFileWatcherDialog/2560.23.2560.1417/-2560.-41.2560.1057/0.23.2560.1337@2560.23.2560.1417" timestamp="1590728056181" />
     <state x="1131" y="1141" key="EditFileWatcherDialog/3008.23.2560.1417/-2560.23.2560.1057/0.23.3008.1578@0.23.3008.1578" timestamp="1589648367864" />
     <state width="2539" height="594" key="GridCell.Tab.0.bottom" timestamp="1590603035708">
       <screen x="2560" y="23" width="2560" height="1417" />
