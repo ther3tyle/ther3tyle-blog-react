@@ -9,3 +9,7 @@
   cursor: pointer;
   transition: background-color 0.1s;
 }
+
+.Button:hover {
+  opacity: 40%;
+}
