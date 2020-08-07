@@ -11,7 +11,8 @@ const Router = (props) => {
             <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Layout>
                     <Route path="/" exact component={Home}/>
-                    <Route path="/blog" component={Blog}/>
+                    <Route path="/blog" exact component={Blog}/>
+                    <Route path="/blog/post" exact component={Blog}/>
                 </Layout>
             </BrowserRouter>
         </div>
