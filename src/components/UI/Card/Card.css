@@ -48,3 +48,7 @@
 .card-button {
   margin-top: auto;
 }
+
+.card-button:hover, .card-button:active {
+  opacity: 40%;
+}
