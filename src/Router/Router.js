@@ -10,9 +10,9 @@ const Router = (props) => {
         <div>
             <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Layout>
-                    <Route path="/" exact component={Home}/>
-                    <Route path="/blog" exact component={Blog}/>
-                    <Route path="/blog/post" exact component={Blog}/>
+                    <Route path={process.env.PUBLIC_URL + "/"} exact component={Home}/>
+                    <Route path={process.env.PUBLIC_URL + "/blog"} exact component={Blog}/>
+                    <Route path={process.env.PUBLIC_URL + "/blog/post"} exact component={Blog}/>
                 </Layout>
             </BrowserRouter>
         </div>
