@@ -35,7 +35,7 @@
 }
 
 
-// Temporary breakpoints. TBD
+/* Temporary breakpoints. TBD */
 /* Hide Arrow below Tablet! It is too hard to see */
 @media only screen and (max-width: 992px) {
   .background-image-arrow {

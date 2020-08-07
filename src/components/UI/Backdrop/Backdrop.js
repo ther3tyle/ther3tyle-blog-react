@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-import './Backdrop.scss';
+import './Backdrop.css';
 import NavigationItems from "../../Layout/Navigation/NavigationItems/NavigationItems";
 
 class Backdrop extends Component {

@@ -8,8 +8,8 @@
   font-weight: 400;
   cursor: pointer;
   transition: background-color 0.1s;
+}
 
-  &:hover {
-    opacity: 40%;
-  }
+.Button:hover {
+  opacity: 40%;
 }

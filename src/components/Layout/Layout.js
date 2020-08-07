@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./Layout.scss";
+import "./Layout.css";
 import Navigation from "./Navigation/Navigation";
 import BackdropMenu from "./Navigation/BackdropMenu/BackdropMenu";
 

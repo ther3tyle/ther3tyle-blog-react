@@ -1,6 +1,6 @@
 import React from "react";
 import Aux from "../../hoc/Aux/Aux";
-import "./Home.scss";
+import "./Home.css";
 
 import arrow from "../../assets/images/arrow.svg";
 import doggy from "../../assets/images/bae-dog-01@3x.png";

@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import {fetchPosts} from "../../redux/actions";
 
 import Card from "../UI/Card/Card";
-import "./Blog.scss";
+import "./Blog.css";
 
 class Blog extends Component {
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./LogoButton.scss";
+import "./LogoButton.css";
 import {Link} from "react-router-dom";
 
 const LogoButton = (props) => {
