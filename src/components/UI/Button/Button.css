@@ -6,10 +6,10 @@
   font-family: Manrope, sans-serif;
   font-weight: 400;
   cursor: pointer;
-  transition: background-color 0.1s;
+  transition: color 0.1s;
 }
 
 .Button:hover,
 .Button:active {
-  opacity: 40%;
+  opacity: .4;
 }
