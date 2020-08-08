@@ -37,6 +37,6 @@ class Blog extends Component {
 
 const mapStateToProps = state => {
     return {posts: state.posts, images: state.loremPicsum}
-}
+};
 
 export default connect(mapStateToProps, {fetchPosts})(Blog);

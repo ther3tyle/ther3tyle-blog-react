@@ -10,6 +10,6 @@ const LogoButton = (props) => {
             </Link>
         </div>
     )
-}
+};
 
 export default LogoButton

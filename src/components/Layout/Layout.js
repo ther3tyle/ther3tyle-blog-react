@@ -9,11 +9,11 @@ const Layout = (props) => {
 
   const closeMenuHandler = () => {
     setShowMenu(false);
-  }
+  };
 
   const showMenuHandler = () => {
     setShowMenu(prevState => !prevState);
-  }
+  };
 
 
   return (
@@ -29,6 +29,6 @@ const Layout = (props) => {
       </div>
     </div>
   );
-}
+};
 
 export default Layout;
