@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
-import {fetchPosts} from "../../redux/actions";
+import {fetchPosts, changeBgColor, changeTextColor} from "../../redux/actions";
 
 import Card from "../UI/Card/Card";
 import "./Blog.css";
@@ -10,6 +10,8 @@ class Blog extends Component {
 
     componentDidMount() {
         this.props.fetchPosts();
+        this.props.changeBgColor("#ffffff");
+        this.props.changeTextColor("#141414");
     }
 
     renderPosts() {
@@ -17,7 +19,7 @@ class Blog extends Component {
             return (
                 <Card
                     key={post.id}
-                    imageSource={`https://picsum.photos/id/${post.id}/300/300`}
+                    imageSource={`https://picsum.photos/id/${post.id}/600/600`}
                     title={post.title}
                     text={post.body}
                     author={post.userId}/>
@@ -43,4 +45,4 @@ const mapStateToProps = state => {
     return {posts: state.posts, images: state.loremPicsum}
 };
 
-export default connect(mapStateToProps, {fetchPosts})(Blog);
+export default connect(mapStateToProps, {fetchPosts, changeBgColor, changeTextColor})(Blog);

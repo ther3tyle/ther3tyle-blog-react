@@ -8,6 +8,7 @@ import SinglePost from "../components/Blog/SinglePost/SinglePost";
 
 const Router = (props) => {
     const baseURL = process.env.PUBLIC_URL;
+
     return (
         <div>
             <BrowserRouter basename={baseURL}>

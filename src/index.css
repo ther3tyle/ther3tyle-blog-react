@@ -1,7 +1,3 @@
-html {
-    background-color: #3177e6;
-}
-
 * {
     /* Prevent content-box sizing globally */
     box-sizing: border-box;

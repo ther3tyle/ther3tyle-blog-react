@@ -1,26 +1,29 @@
 import React, {Component} from "react";
 import "./Card.css";
-import Button from "../Button/Button";
 
 class Card extends Component {
     render() {
+        let title = this.props.title;
+        if (this.props.title.length > 35) {
+            for (let i = 35; i < title.length; i++) {
+                if (title[i] === " ") {
+                    title = title.substring(0, i);
+                    break;
+                }
+                if (i === title.length - 1)
+                    title = title.substring(0, 35);
+            }
+            title += "...";
+        }
+
         return (
             <div className="card">
                 <div className="card-content card__image">
                     <img src={this.props.imageSource}
                          alt={this.props.title}/>
                 </div>
-                <div className="card-content card__hr">
-                    <hr/>
-                </div>
-                <div className="card-content card__author">
-                    {"AUTHOR: " + this.props.author}
-                </div>
                 <div className="card-content card__title">
-                    {this.props.title}
-                </div>
-                <div className="card-button">
-                    <Button/>
+                    {title}
                 </div>
             </div>
         )
