@@ -4,6 +4,7 @@ import {fetchPosts} from "../../redux/actions";
 
 import Card from "../UI/Card/Card";
 import "./Blog.css";
+import SearchBar from "../UI/SearchBar/SearchBar";
 
 class Blog extends Component {
 
@@ -26,9 +27,12 @@ class Blog extends Component {
 
     render() {
         return (
-            <div className="blog">
-                <div className="blog-container">
-                    {this.renderPosts()}
+            <div className="blog-container">
+                <SearchBar />
+                <div className="blog">
+                    <div className="posts">
+                        {this.renderPosts()}
+                    </div>
                 </div>
             </div>
         );

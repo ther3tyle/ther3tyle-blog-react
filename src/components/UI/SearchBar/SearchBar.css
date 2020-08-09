@@ -1,0 +1,21 @@
+.search-bar-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.search-bar__text-input {
+    padding: 0;
+    background-color: #3177e6;
+    border: 1px solid floralwhite;
+    border-radius: 5px;
+    width: 70%;
+    height: 3rem;
+    font-size: 2.5rem;
+    font-family: Manrope, sans-serif;
+    color: floralwhite;
+}
+
+.search-bar__text-input:focus {
+    outline-offset: 0;
+    border: none;
+}
