@@ -1,19 +1,17 @@
 import React from "react";
 import "./NavigationItem.css";
 import {connect} from "react-redux";
-import {changeBgColor, changeTextColor} from "../../../../../redux/actions";
 import {Link} from 'react-router-dom';
 
 const NavigationItem = (props) => {
-
-    const clicked = () => {
-        props.changeBgColor("#ffffff")
-        props.changeTextColor("#141414")
+    let navColor = props.textColor;
+    if (props.isBackdrop) {
+        navColor = "#ffffff";
     }
 
     return (
         <Link to={`/${props.link}`}>
-            <li className="navigation-item" onClick={clicked} style={{color: props.textColor}}>
+            <li className="navigation-item" style={{color: navColor}}>
                 {props.name}
             </li>
         </Link>
@@ -22,10 +20,9 @@ const NavigationItem = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-        changeBgColor: state.changeBgColor,
-        changeTextColor: state.changeTextColor,
+        isBackdrop: state.backdropMenu.showBackdrop === " open",
         textColor: state.colors.text
     }
 }
 
-export default connect(mapStateToProps, {changeBgColor, changeTextColor})(NavigationItem);
+export default connect(mapStateToProps, )(NavigationItem);

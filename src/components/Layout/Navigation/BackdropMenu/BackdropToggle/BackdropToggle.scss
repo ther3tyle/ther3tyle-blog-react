@@ -13,11 +13,10 @@
     div {
       width: 80%;
       height: 2px;
-      background-color: white;
     }
     &:hover {
       div {
-        opacity: 40%;
+        opacity: 0.4;
       }
     }
   }
